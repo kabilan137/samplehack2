@@ -1,4 +1,4 @@
 function validateLogin(user, password) {
-    console.log("Login started");
+    if (!password) return false;
     return authenticate(user, password);
 }
